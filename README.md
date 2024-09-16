@@ -11,15 +11,14 @@ This is a simple **Weather App** built with **Node.js** and **Express.js**, whic
 - Implements environment variables for API keys using `.env` to enhance security.
 
 ## Project Structure
-.
-├── node_modules/           # Node.js modules
-├── scr/
-│   └─ weather.js           # Handles API calls to OpenWeather
-├── .env                    # Stores environment variables (API key)
-├── .gitignore              # Prevents committing sensitive data
-├── index.js                # Main server file using Express.js
-├── package.json            # Project dependencies and metadata
-└── README.md               # Project documentation
+- node_modules/           # Node.js modules
+- scr/
+ - weather.js             # Handles API calls to OpenWeather
+- .env                    # Stores environment variables (API key)
+- .gitignore              # Prevents committing sensitive data
+- index.js                # Main server file using Express.js
+- package.json            # Project dependencies and metadata
+- README.md               # Project documentation
 
 ## Technologies Used
 

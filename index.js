@@ -1,4 +1,6 @@
 const express = require("express");
+require("dotenv").config();
+
 const { getWeatherByCity } = require("./scr/weather");
 
 const app = express();

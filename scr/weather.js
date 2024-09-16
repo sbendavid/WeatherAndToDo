@@ -1,8 +1,11 @@
+require("dotenv").config();
+
 const getWeatherByCity = async (city) => {
   const fetch = (await import("node-fetch")).default;
-
-  const API_KEY = "b0b2030f54e18a45befe3da9623a16d0";
-  const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`;
+  const API_KEY = process.env.API_KEY;
+  const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(
+    city
+  )}&appid=${API_KEY}`;
 
   try {
     const response = await fetch(weatherUrl);

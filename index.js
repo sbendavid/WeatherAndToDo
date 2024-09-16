@@ -1,7 +1,7 @@
 const express = require("express");
 require("dotenv").config();
 
-const { getWeatherByCity } = require("./scr/weather");
+const { getWeatherByCity } = require("./src/weather");
 
 const app = express();
 const port = 3000;

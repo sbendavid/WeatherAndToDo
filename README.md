@@ -92,7 +92,7 @@ http://localhost:3000/weather/Abuja
 ## Example Response:
 ```json
 {
-  "city": "London",
+  "city": "Abuja",
   "temperature": "15.35",
   "description": "clear sky",
   "wind_speed": 2.06
@@ -133,7 +133,7 @@ Response (Example):
 
 ```json
 {
-  "todos": "1. Buy groceries\n2. Complete the project\n3. Read a book"
+  "todos": "1. Buy groceries 2. Complete the project 3. Read a book"
 }
 ```
 Removing a Task by Index
@@ -183,6 +183,7 @@ npm install
 - Add more detailed weather information (e.g., humidity, pressure).
 - Add support for fetching weather data by geographic coordinates (latitude and longitude).
 - Implement front-end to display weather data and todo list app in a user-friendly interface.
+- Add a database for the todo list app for storing data of the users.
 
 ## License
 This project is licensed under the MIT License.

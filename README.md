@@ -4,16 +4,20 @@ This is a simple **Weather App** and **To-Do List API** built with **Node.js** a
 
 ## Weather App
 
-which fetches real-time weather data from the **OpenWeather API**. The app allows users to get the current weather for any city by making a GET request to an endpoint. Users can add, remove, and view their tasks via API endpoints for the todo list app.
+This can fetches real-time weather data from the **OpenWeather API**. The app allows users to get the current weather for any city by making a GET request to an endpoint.
 
-## Features
+## To-Do List App
 
-### For the weather app
+Users can add, remove, and view their tasks via API endpoints for the todo list app.
+
+# Features
+
+## For the weather app
 - Fetch real-time weather data for any city.
 - Provides information about the current temperature, weather description, and wind speed.
 - Implements environment variables for API keys using `.env` to enhance security.
 
-### For the todo list app
+## For the todo list app
 - Add new tasks to the To-Do list
 - View all tasks in the To-Do list
 - Remove tasks by index
@@ -182,12 +186,5 @@ npm install
 
 ## License
 This project is licensed under the MIT License.
-
-### Explanation:
-- The **Installation** section provides steps for setting up the project.
-- The **Usage** section describes how to use the API endpoints with examples of requests and responses.
-- The **Project Structure** outlines the directory and file layout.
-- The **API Endpoints** section provides a table of the available routes and their descriptions.
-
 
 ### This `README.md` provides a comprehensive overview of your project, including features, setup instructions, usage, and other relevant details. Let me know if there's anything else you need!

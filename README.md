@@ -177,7 +177,7 @@ npm install
 ```
 
 ## API Used
-- OpenWeather API: Provides real-time weather data. You can get an API key by registering at OpenWeather.
+- OpenWeather API: Provides real-time weather data. You can get an API key by registering at [OpenWeather](https://openweathermap.org/).
 
 ## Future Enhancements
 - Add more detailed weather information (e.g., humidity, pressure).
